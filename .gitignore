@@ -1,0 +1,26 @@
+# ML Models (Too large for Git)
+*.onnx
+*.task
+
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache / builds
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/

@@ -1,0 +1,27 @@
+# Model Downloads for Deepfake Project
+
+This project requires two large deep learning model files to function. These files are excluded from the GitHub repository due to their size, but you can download them using the links below.
+
+Please download both models and place them directly in the project directory (inside folder `1/` alongside `face_detector.py`).
+
+---
+
+### 1. Face Swap Model: inswapper_128.onnx
+This model is used by InsightFace to perform high-fidelity face swapping.
+
+*   **Filename:** `inswapper_128.onnx`
+*   **Size:** ~554 MB
+*   **Download Links (choose one):**
+    *   [Hugging Face (ReActor Repository)](https://huggingface.co/Gourieff/ReActor/resolve/main/models/inswapper_128.onnx)
+    *   [GitHub (FaceFusion Assets Releases)](https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx)
+    *   [Hugging Face (ezioruan Repository)](https://huggingface.co/ezioruan/inswapper_128.onnx/resolve/main/inswapper_128.onnx)
+
+---
+
+### 2. Face Enhancement Model: gfpgan_1.4.onnx
+This model is used by GFPGAN to restore and enhance face quality after swapping.
+
+*   **Filename:** `gfpgan_1.4.onnx`
+*   **Size:** ~340 MB
+*   **Download Links:**
+    *   [Hugging Face (FaceFusion 3.0.0 Release)](https://huggingface.co/facefusion/models-3.0.0/resolve/main/gfpgan_1.4.onnx)
