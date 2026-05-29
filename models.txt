@@ -2,7 +2,7 @@
 
 This project requires two large deep learning model files to function. These files are excluded from the GitHub repository due to their size, but you can download them using the links below.
 
-Please download both models and place them directly in the project directory (inside folder `1/` alongside `face_detector.py`).
+Please download both models and place them in the project root directory (same folder as `face_detector.py`).
 
 ---
 
