@@ -1,0 +1,5 @@
+opencv-python==4.13.0.92
+numpy==2.4.6
+insightface==1.0.1
+onnxruntime==1.26.0
+# onnxruntime-gpu==1.26.0
